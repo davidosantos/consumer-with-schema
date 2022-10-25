@@ -1,0 +1,13 @@
+{"namespace": "com.davidosantos.kafka.training.kafkatraining",
+ "type": "record",
+ "name": "DataRecordAvro",
+ "fields": [
+     {"name": "name", "type": "string"},
+     {"name": "age", "type": "int", "default" : 0},
+     //{"name": "date", "type": "long"},
+     {"name": "address", "type": "string", "default" : "none"},
+    // {"name": "address2", "type": "string", "default" : "none"}
+    {"name": "gender", "type": "string"}
+
+ ]
+}
